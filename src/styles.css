@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'bootstrap/dist/css/bootstrap.css';
+@import 'font-awesome/css/font-awesome.css';
+@import "https://use.fontawesome.com/releases/v5.3.1/css/all.css";
+
+.btn {
+    margin-right: 10px;
+}
