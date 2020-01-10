@@ -2,8 +2,8 @@ import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { ListaOperacoesComponent } from './lista-operacoes/lista-operacoes.component';
-import { OperacaoRoutingModule } from './operacao-routing/operacao-routing.module';
+import { ListaOperacoesComponent } from './operacao-lista/lista-operacoes.component';
+import { OperacaoRoutingModule } from './operacao-routing.module';
 
 @NgModule({
   imports: [

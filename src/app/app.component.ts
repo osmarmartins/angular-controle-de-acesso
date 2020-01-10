@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { getLocaleDateTimeFormat } from '@angular/common';
-import { timeout } from 'q';
 
 @Component({
   selector: 'app-root',

@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { GrupoRoutingModule } from './grupo-routing/grupo-routing.module';
-import { ListaGruposComponent } from './lista-grupos/lista-grupos.component';
+import { GrupoRoutingModule } from './grupo-routing.module';
+import { ListaGruposComponent } from './grupo-lista/lista-grupos.component';
 import { RouterModule } from '@angular/router';
 
 @NgModule({

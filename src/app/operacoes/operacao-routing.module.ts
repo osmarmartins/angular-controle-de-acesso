@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { ListaOperacoesComponent } from './../lista-operacoes/lista-operacoes.component';
+import { ListaOperacoesComponent } from './operacao-lista/lista-operacoes.component';
 
 const operacaoRoutes: Routes = [
   {path: 'operacoes', component: ListaOperacoesComponent}

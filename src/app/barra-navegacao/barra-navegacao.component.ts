@@ -7,8 +7,6 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class BarraNavegacaoComponent implements OnInit {
 
-  @Input() opcaoMenu;
-
   constructor() { }
 
   ngOnInit() {
