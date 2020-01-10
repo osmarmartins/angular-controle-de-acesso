@@ -1,14 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-
 import { Usuario } from '../usuario.model';
 
 @Component({
-  selector: 'app-lista-usuarios',
-  templateUrl: './lista-usuarios.component.html',
-  styleUrls: ['./lista-usuarios.component.css']
+  selector: 'app-usuario',
+  templateUrl: './usuario.component.html',
+  styleUrls: ['./usuario.component.css']
 })
-
-export class ListaUsuariosComponent implements OnInit {
+export class UsuarioComponent implements OnInit {
 
   constructor() { }
 
@@ -23,6 +21,7 @@ export class ListaUsuariosComponent implements OnInit {
     { id: 6, nome: 'Ticiana Martins', login: 'ticiana', email: 'ticiana@test.com', senha: '123', ativo: false},
     { id: 7, nome: 'Osmar Neto', login: 'neto', email: 'neto@test.com', senha: '123', ativo: false}
   ];
+
 
   ngOnInit() {
   }

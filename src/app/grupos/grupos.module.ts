@@ -2,8 +2,9 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { GrupoRoutingModule } from './grupo-routing.module';
-import { ListaGruposComponent } from './grupo-lista/lista-grupos.component';
 import { RouterModule } from '@angular/router';
+import { GrupoComponent } from './grupo/grupo.component';
+import { GrupoFormComponent } from './grupo-form/grupo-form.component';
 
 @NgModule({
   imports: [
@@ -12,10 +13,10 @@ import { RouterModule } from '@angular/router';
     RouterModule
   ],
   declarations: [
-    ListaGruposComponent
+    GrupoComponent,
+    GrupoFormComponent
   ],
-  exports: [
-    ListaGruposComponent
-  ]
+  exports: [ ]
 })
+
 export class GruposModule { }

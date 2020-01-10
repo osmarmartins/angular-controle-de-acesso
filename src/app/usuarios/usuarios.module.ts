@@ -2,14 +2,14 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
-import { AdicionaUsuarioComponent } from './usuario-form/adiciona-usuario.component';
-import { ListaUsuariosComponent } from './usuario-lista/lista-usuarios.component';
 import { UsuarioRoutingModule } from './usuario-routing.module';
+import { UsuarioComponent } from './usuario/usuario.component';
+import { UsuarioFormComponent } from './usuario-form/usuario-form.component';
 
 @NgModule({
   declarations: [
-    ListaUsuariosComponent,
-    AdicionaUsuarioComponent
+    UsuarioComponent,
+    UsuarioFormComponent
   ],
   imports: [
     CommonModule,
@@ -17,8 +17,8 @@ import { UsuarioRoutingModule } from './usuario-routing.module';
     RouterModule
   ],
   exports: [
-    ListaUsuariosComponent,
-    AdicionaUsuarioComponent
+    UsuarioComponent,
+    UsuarioFormComponent
   ]
 })
 

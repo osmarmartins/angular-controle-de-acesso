@@ -2,8 +2,9 @@ import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { ListaOperacoesComponent } from './operacao-lista/lista-operacoes.component';
 import { OperacaoRoutingModule } from './operacao-routing.module';
+import { OperacaoComponent } from './operacao/operacao.component';
+import { OperacaoFormComponent } from './operacao-form/operacao-form.component';
 
 @NgModule({
   imports: [
@@ -12,10 +13,9 @@ import { OperacaoRoutingModule } from './operacao-routing.module';
     RouterModule
   ],
   declarations: [
-    ListaOperacoesComponent
+    OperacaoComponent,
+    OperacaoFormComponent
   ],
-  exports: [
-    ListaOperacoesComponent
-  ]
+  exports: []
 })
 export class OperacoesModule { }

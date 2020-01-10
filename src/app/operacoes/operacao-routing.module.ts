@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { ListaOperacoesComponent } from './operacao-lista/lista-operacoes.component';
+import { OperacaoComponent } from './operacao/operacao.component';
 
 const operacaoRoutes: Routes = [
-  {path: 'operacoes', component: ListaOperacoesComponent}
+  {path: 'operacoes', component: OperacaoComponent}
 ];
 
 @NgModule({

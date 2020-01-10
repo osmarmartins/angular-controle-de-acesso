@@ -1,10 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-
-import { ListaGruposComponent } from './grupo-lista/lista-grupos.component';
+import { GrupoComponent } from './grupo/grupo.component';
 
 const grupoRoutes: Routes = [
-  {path: 'grupos', component: ListaGruposComponent}
+  {path: 'grupos', component: GrupoComponent}
 ];
 
 @NgModule({
